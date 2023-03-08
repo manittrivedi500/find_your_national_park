@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import HomeView from './views/HomeView.vue';
 </script>
 
 <template>
@@ -10,8 +10,8 @@ import HelloWorld from './components/HelloWorld.vue';
        like hiking or camping, even hunting. If you find any bugs or other errors please <a href="mailto:manit.trivedi2009@gmail.com">email</a></p>
     </div>
   </header>
-
-  <RouterView />
+  <HomeView></HomeView>
+  
 </template>
 
 <style scoped>
