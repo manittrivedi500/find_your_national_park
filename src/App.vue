@@ -5,7 +5,7 @@ import HomeView from './views/HomeView.vue';
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld class="FindYourNationalPark" msg="Find Your National Park!" />
+      <h1 class="find-your-national-park">Find Your National Park!</h1>
       <p>Search the activity you want in the search bar and wait for the results to roll in. To test it out, search an activity 
        like hiking or camping, even hunting. If you find any bugs or other errors please <a href="mailto:manit.trivedi2009@gmail.com">email</a></p>
     </div>
@@ -15,6 +15,11 @@ import HomeView from './views/HomeView.vue';
 </template>
 
 <style scoped>
+
+.find-your-national-park{
+  color: #00bd7e;
+  font-size: 50px;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
